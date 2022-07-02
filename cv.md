@@ -5,12 +5,11 @@
 - Location: Minsk, Belarus
 - Phone: +375(44)5458548
 - Email: kostukevich.p9@gmail.com
----
+  
 ## About me:
 
 I have a clear, logical mind with a practical approach to problem-solving. I am eager to be challenged in order to grow and further improve my IT skills.
 
----
 ## Skills:
 
 Programming languages:
@@ -23,13 +22,12 @@ Other:
 + Russian - native speaker
 + English - C1
   
----
+
 
 ## Education:
 
 First-year student of Faculty of Applied Mathematics and Computer Science, Belarusian State University.
 
----
 
 ## Code Example:
 
@@ -46,6 +44,5 @@ int main(){
 
 ---
 
-## 
 
 
