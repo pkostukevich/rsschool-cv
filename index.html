@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gulzar&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container"></div>
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#aboutMe" class="nav-link">About me</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+            </ul>
+          </nav>
+    </header>
+
+
+    <main class="main">
+        <div class="main-container">
+        <section class="section" id="profile">
+            <img class="main-photo" src="./assets/avatar1.jpg" alt=" ">
+            </section>
+
+        <section class="section" id="aboutMe">
+            <h1>Kostukevich Polina</h1>
+            <p class="summary">I have a clear, logical mind with a practical approach to problem-solving. 
+            I am eager to be challenged in order to grow and further improve my IT skills.</p>
+        </section>
+
+         <hr>
+        <section class="section_two" id="skills">
+            <h2>Skills</h2>
+           <h3> Programming languages:</h3>
+         <ul>
+            <li>C++</li>
+            <li>Assembler</li>
+            <li>QT</li>
+            <li>JavaScript</li>
+        </ul>
+            
+            <h3>Other:</h3>
+        <ul>
+            <li>Russian - native speaker</li>
+            <li>English - C1</li>
+        </ul>
+        </section>
+        <section class="section_two" id="education">
+            <h2>Education</h2>
+            <h3>In 2021 graduated from Gymnasium №3, Minsk.</h3>
+                <h3>Now I am a first-year student of Faculty of Applied Mathematics 
+            and Computer Science, Belarusian State University.</h3>
+        </section>
+        
+        <hr>
+        <section class="section_two" id="code">
+            <h2>Code</h2>
+            <pre>
+                <code>
+                    int sum(int a, int b) {
+                        return a + b;
+                      }
+                      
+                      int main(){
+                          std::cout << sum(2, 3);
+                          return 0;
+                      }
+                </code>
+                </pre>
+        </section>
+
+        <section class="section_two" id="contacts">
+           <h2>Contacts</h2>
+                <ul class="contacts-list">
+                    <li class="cont-item"><img src="./assets/loc.png" alt="" class="icon"><b>Location:</b> Minsk, Belarus</li>
+                    <li class="cont-item"><img src="./assets/ph.png" alt="" class="icon"><b>Phone:</b> +375(44)5458548</li>
+                    <li class="cont-item"><img src="./assets/mail.png" alt="" class="icon"><b>Email:</b> kostukevich.p9@gmail.com</li>
+                </ul>
+           
+        </section>
+        
+    </div>
+    </main>
+
+    <footer class="footer">
+    <div class="main-container">
+            <p class="section_two"> <a href="https://github.com/pkostukevich" class="nav-link">© 2021 Polina Kostukevich</a></p>
+            <img src="assets/logo.svg" alt="" class="section_two" id="logo">
+        </div>
+
+    </footer>
+</body>
+</html>
