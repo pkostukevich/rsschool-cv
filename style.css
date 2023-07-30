@@ -4,6 +4,8 @@
 
 html {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -12,6 +14,7 @@ body {
   justify-content: space-between;
   background: rgb(244, 223, 216);
   margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -26,6 +29,7 @@ body {
 .footer {
   background-color: rgba(224, 149, 91, 0.933);
   height: 80px;
+  overflow: hidden;
 }
 
 .container {
